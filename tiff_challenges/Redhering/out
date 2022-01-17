@@ -1,0 +1,21 @@
+[?25l[?1h=[6nTraceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 185, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/usr/lib/python3.8/runpy.py", line 144, in _get_module_details
+    return _get_module_details(pkg_main_name, error)
+  File "/usr/lib/python3.8/runpy.py", line 111, in _get_module_details
+    __import__(pkg_name)
+  File "/pwnshop/pwnshop/__init__.py", line 1, in <module>
+    from .challenges import Challenge, challenges
+  File "/pwnshop/pwnshop/challenges/__init__.py", line 9, in <module>
+    import pwn
+  File "/usr/local/lib/python3.8/dist-packages/pwn/__init__.py", line 6, in <module>
+    pwnlib.args.initialize()
+  File "/usr/local/lib/python3.8/dist-packages/pwnlib/args.py", line 209, in initialize
+    term.init()
+  File "/usr/local/lib/python3.8/dist-packages/pwnlib/term/__init__.py", line 78, in init
+    term.init()
+  File "/usr/local/lib/python3.8/dist-packages/pwnlib/term/term.py", line 113, in init
+    c = os.read(fd.fileno(), 1)
+KeyboardInterrupt
+[?12l[?25h[?1l> 
